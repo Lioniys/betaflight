@@ -1128,7 +1128,7 @@ static void osdElementFlymode(osdElementParms_t *element)
 static void osdElementReadyMode(osdElementParms_t *element)
 {
     if (IS_RC_MODE_ACTIVE(BOXREADY)) {
-        strcpy(element->buff, "READY TO DETONATE");
+        strcpy(element->buff, "BOMB ARM");
     }
 }
 
